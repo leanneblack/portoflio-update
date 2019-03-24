@@ -1,0 +1,303 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,700');
+
+
+body{
+  margin-bottom: 80px;
+ 
+}
+nav{
+  background-color: #D6D6D6;
+}
+
+body
+ 
+.content {
+  background-color: white;
+  padding: 10px;
+}
+  
+/* portfolio page */
+
+
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  .portitem{
+    padding: 10px;
+    background-color:rgba(214, 214, 214, 0.514);
+    margin: 10px;
+  }
+  .portitem h4{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #3D555B;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+
+  .portitem a{
+    font-family: 'Poppins', sans-serif;
+    color: #3D555B;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: .7em;
+  }
+  
+
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding:8px;
+    background-color: #3D555B;
+    color: #fff;
+    cursor: pointer;
+    
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .btn:hover {
+    background-color:#E0D7C5 ;
+  }
+  
+  /* Add a dark background color to the active button */
+  .btn:active {
+    background-color: #3D555B;
+     color: white;
+  }
+ 
+.page-header .h2, h2 {
+    font-size:1.2em;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+ }
+
+
+/* index page */
+
+ .jumbotron{
+  min-height: 100%;
+  background-image: url(images/jumbotron.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom:20px;
+ 
+  
+}
+
+#pop-text{
+background-color: rgba(255, 255, 255, 0.459);
+margin-top: 100px;
+margin-bottom: 150px;
+height: 100%;
+padding-top:50px;
+padding-bottom: 50px;
+
+
+}
+.bio img{
+  margin:8px;
+
+
+}
+
+
+.jumbotron-heading{
+  margin-top:auto;
+  font-size: 3em;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing:3px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* hover */
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #D6D6D6;
+  overflow: hidden;
+  width: 0;
+  opacity: .9;
+  height: 100%;
+  transition: .2s ease;
+ 
+}
+
+:hover .overlay {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  color:#3D555B;
+  font-size: 1.2em;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.contact-image{
+  max-width:70%;
+  margin-left: 10%;
+  margin-right:10%;
+  
+}
+
+h1{ 
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing:3px;
+  margin-top: 80px;
+  font-family: 'Poppins', sans-serif;
+}
+h2{
+  margin-top: 5px;
+  color: #E0D7C5;
+  font-weight: 900;
+  
+}
+h3{
+  text-transform: uppercase;
+  letter-spacing:2px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+.text-center{
+  margin-bottom: 40px;
+}
+
+.map-responsive{
+  margin-top: 2%;
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  margin-bottom: 2%;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+.icons {
+  width:100%;
+  text-align: center;
+  margin:10px;
+  color:#28434A;
+}
+.icons p a{
+  color:#28434A;
+}
+
+
+.icons p:hover{
+  color:#E0D7C5;
+ }
+
+.icons p a:hover{
+ color:#28434A;
+}
+
+button {
+  margin-bottom:10px;
+  font-size:10px;
+  text-transform: lowercase;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+}
+.icons  {
+margin-top:10px;
+font-size: .8em;
+font-family: 'Poppins', sans-serif;
+font-weight: 200;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+body p{
+  font-family: 'Poppins', sans-serif;
+  font-size:.9em;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 4px;
+  color: #3D555B;
+}
+
+.jumbotron p a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+
+}
+
+.navbar-nav{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  font-weight: 400;
+  font-size:12px;
+}
+
+i:hover{
+  color:#E0D7C5;
+}
+
+#form1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+}
+
+
+.footer  {
+  position: absolute;
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  background-color:#D6D6D6;
+  padding-bottom:0px;
+  
+}
+.contacter{
+  margin-top: 20px;
+}
+
+footer .text-center{
+  font-weight: 200;
+  font-size: .6em;
+  margin-top:10px;
+}
+
+
